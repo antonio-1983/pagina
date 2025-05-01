@@ -22,5 +22,5 @@ public class Producto {
     private String descripcion;
     private String material;
     private String tapizado;
-    private float precio;
+    private Float precio;
 }
