@@ -48,7 +48,7 @@ public class ProductoService implements IProductoService{
         }   
             productoRepository.save(productoExistente);
     } else {
-        throw new RuntimeException("Conocimiento no encontrado");
+        throw new RuntimeException("Producto no encontrado");
     }       
   } 
     @Override

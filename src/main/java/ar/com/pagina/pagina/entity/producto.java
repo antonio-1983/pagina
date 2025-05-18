@@ -23,4 +23,5 @@ public class Producto {
     private String material;
     private String tapizado;
     private Float precio;
+    private String imagenUrl;
 }
